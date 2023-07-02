@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "create_railway_additions",
+	"version": "${version}",
+	"name": "Create Railway Additions",
+	"description": "FILL DESCR",
+	"authors": [
+		"rotgruengelb"
+	],
+	"contact": {
+		"homepage": "FILL HOMEPAGE",
+		"sources": "FILL SOURCES"
+	},
+	"license": "MIT",
+	"icon": "assets/create_railway_additions/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "net.rotgruengelb.create_railway_additions.CreateRailwayAdditions"
+		],
+		"fabric-datagen": [
+			"net.rotgruengelb.create_railway_additions.CreateRailwayAdditionsDataGenerator"
+		],
+		"client": [
+			"net.rotgruengelb.create_railway_additions.CreateRailwayAdditionsClient"
+		]
+	},
+	"mixins": [
+		"create_railway_additions.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.19.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
