@@ -2,6 +2,8 @@ package net.rotgruengelb.create_railway_additions;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.rotgruengelb.create_railway_additions.block.ModBlocks;
+import net.rotgruengelb.create_railway_additions.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -14,5 +16,7 @@ public class CreateRailwayAdditions implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

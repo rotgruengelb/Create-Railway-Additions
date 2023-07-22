@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "create_railway_additions:block/test_block" }
+  }
+}

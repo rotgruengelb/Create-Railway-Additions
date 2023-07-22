@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "create_railway_additions:block/speaker"
+    },
+    "facing=south": {
+      "model": "create_railway_additions:block/speaker",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "create_railway_additions:block/speaker",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "create_railway_additions:block/speaker",
+      "y": 90
+    }
+  }
+}
